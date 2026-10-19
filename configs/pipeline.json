@@ -1,0 +1,116 @@
+{
+  "paths": {
+    "raw": "data/raw/base_credit_risk_202510.csv",
+    "outputs": "outputs",
+    "runtime": "outputs/workspace_from_raw",
+    "segmented": "2.OUTPUT/1.1.0.TAB_SEGM_TRAIN_TEST_OOT.csv"
+  },
+  "target": "indicador_default",
+  "segments": [
+    "TRAIN",
+    "TEST",
+    "OOT"
+  ],
+  "period": "periodo_observacion",
+  "univariate": {
+    "variability_max_pct": 85,
+    "missing_max_pct": 40
+  },
+  "psi": {
+    "REFERENCE_MODE": "early_train",
+    "REFERENCE_N_MONTHS": 3,
+    "REFERENCE_MIN_N": 500,
+    "MIN_MONTH_OBS": 200,
+    "MIN_EXPECTED_BIN_COUNT": 5,
+    "MIN_TRAIN_MONTH_COVERAGE": 0.7,
+    "ALPHA": 0.5,
+    "N_BINS": 5,
+    "AMBER": 0.1,
+    "RED": 0.2,
+    "AUTO_DROP_PSI": false
+  },
+  "bivariate": {
+    "POLICY_VERSION": "B.3",
+    "MIN_IV_TOTAL": 0.02,
+    "MIN_FIT_OBS": 400,
+    "MIN_EVAL_BIN_N": 50,
+    "Q_VALUES": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ALPHA": 0.5,
+    "LOW_CARDINALITY_MAX": 10,
+    "MAX_CATEGORIES": 50,
+    "MIN_BIN_PCT": 0.05,
+    "MIN_BIN_N": 200,
+    "MIN_GOODS": 20,
+    "MIN_BADS": 10,
+    "MIN_MONTH_BIN_N": 50,
+    "MIN_MONTH_BIN_EVENTS": 3,
+    "MIN_TEMPORAL_COVERAGE": 0.7,
+    "TEMPORAL_Z_ALERT": 3.0,
+    "MAX_TEMPORAL_ALERT_FRACTION": 0.2,
+    "IV_RETAIN_FRACTION": 0.9,
+    "APPROX_TREND_RHO": 0.8,
+    "MERGE_ADJACENT": true,
+    "UNSEEN_POLICY": "training_prior_woe_0",
+    "MIN_PREFERRED_BINS": 3,
+    "MIN_IV_ORDINARY": 0.01,
+    "MIN_RATE_GAP": 0.005,
+    "MIN_TWO_BIN_IV": 0.02,
+    "MIN_TWO_BIN_AUC": 0.55,
+    "MIN_TWO_BIN_RATE_GAP": 0.01,
+    "TWO_BIN_MAX_IV_LOSS": 0.1,
+    "MAX_COMPARISON_IV_LOSS": 0.2
+  },
+  "correlation": {
+    "method": "pearson",
+    "threshold": 0.6
+  },
+  "logistic": {
+    "P_VALUE_THRESHOLD": 0.05,
+    "SHAP_MIN_PCT": 2.0,
+    "MAX_IV_MODEL": 0.5,
+    "MAX_ITERACIONES": 100,
+    "CLASSIFICATION_THRESHOLD": 0.5,
+    "RANDOM_STATE": 42,
+    "SHAP_SAMPLE_N": 2000,
+    "SHAP_BACKGROUND_N": 500,
+    "FIT_MAXITER": 200,
+    "MAX_CONDITION_NUMBER": 1000000000000.0,
+    "GINI_ALERT_TOLERANCE": 0.05,
+    "KS_ALERT_TOLERANCE": 0.05
+  },
+  "threshold_diagnostics": {
+    "RANDOM_STATE": 42,
+    "INTERNAL_VALIDATION_FRACTION": 0.3,
+    "RECALL_SCENARIO": 0.5,
+    "MAX_HIGH_RISK_SCENARIO": 0.1,
+    "REFERENCE_THRESHOLD": 0.5
+  },
+  "mlflow": {
+    "port": 5002,
+    "tracking_uri": "http://127.0.0.1:5002",
+    "experiment": "CREDIT_RISK_LOGISTIC_WOE"
+  },
+  "segmentation": {
+    "oot_months": [
+      202510,
+      202509,
+      202508
+    ],
+    "development_max_period": 202507,
+    "test_size": 0.3,
+    "random_state": 123,
+    "stratify": "indicador_default",
+    "unit": "rows_of_development",
+    "source": "1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb"
+  }
+}

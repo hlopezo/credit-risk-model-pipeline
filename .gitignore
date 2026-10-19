@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+outputs/*
+!outputs/.gitkeep
+*.db
+*.sqlite*
+MLFLOW_LOCAL/
+*.log
+*.tmp

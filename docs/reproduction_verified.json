@@ -1,0 +1,300 @@
+{
+  "reproduction_starts_at": "1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb",
+  "clean_environment": {
+    "relative_path": "outputs/clean_phase1_env",
+    "python": "3.14.4",
+    "system_site_packages": false,
+    "pip_check": "passed"
+  },
+  "tests": {
+    "tests": 226,
+    "failures": 0,
+    "errors": 0
+  },
+  "phase1": {
+    "phase1_executed": true,
+    "phase1_notebook": "1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb",
+    "input_raw_sha256": "d8278614e2e822d871b098143317351f7ad5a8948e2970a87c348ea01eaba514",
+    "segmented_file_sha256": "77257d30bc7e475d2219724ef99faf4cb8f75aed5ebd6524962caff4ecda7852",
+    "original_segmented_sha256": "77257d30bc7e475d2219724ef99faf4cb8f75aed5ebd6524962caff4ecda7852",
+    "columns_types_match": true,
+    "rows_indices_identifiers_targets_match": true,
+    "segment_comparison": [
+      {
+        "Segmento": "TEST",
+        "Registros": 12095,
+        "Clientes": 12095,
+        "Defaults": 1286,
+        "Tasa_default": 0.10632492765605622,
+        "Periodos": [
+          202408,
+          202409,
+          202410,
+          202411,
+          202412,
+          202501,
+          202502,
+          202503,
+          202504,
+          202505,
+          202506,
+          202507
+        ],
+        "Coincide_exactamente": true
+      },
+      {
+        "Segmento": "TRAIN",
+        "Registros": 28221,
+        "Clientes": 28221,
+        "Defaults": 3001,
+        "Tasa_default": 0.10633925091244109,
+        "Periodos": [
+          202408,
+          202409,
+          202410,
+          202411,
+          202412,
+          202501,
+          202502,
+          202503,
+          202504,
+          202505,
+          202506,
+          202507
+        ],
+        "Coincide_exactamente": true
+      },
+      {
+        "Segmento": "OOT",
+        "Registros": 10304,
+        "Clientes": 10304,
+        "Defaults": 1131,
+        "Tasa_default": 0.10976319875776397,
+        "Periodos": [
+          202508,
+          202509,
+          202510
+        ],
+        "Coincide_exactamente": true
+      }
+    ],
+    "source": "executed notebook 1.0; original input without SEGMENTO",
+    "segmentation": {
+      "oot_months": [
+        202510,
+        202509,
+        202508
+      ],
+      "development_max_period": 202507,
+      "test_size": 0.3,
+      "random_state": 123,
+      "stratify": "indicador_default",
+      "unit": "rows_of_development",
+      "source": "1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb"
+    }
+  },
+  "phase1_original_code_cells_identical": true,
+  "numeric_reproduction": {
+    "reproduced": true,
+    "from_unsegmented_source": true,
+    "phase1_partition_matches": true,
+    "partition_evidence": {
+      "phase1_executed": true,
+      "phase1_notebook": "1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb",
+      "input_raw_sha256": "d8278614e2e822d871b098143317351f7ad5a8948e2970a87c348ea01eaba514",
+      "segmented_file_sha256": "77257d30bc7e475d2219724ef99faf4cb8f75aed5ebd6524962caff4ecda7852",
+      "original_segmented_sha256": "77257d30bc7e475d2219724ef99faf4cb8f75aed5ebd6524962caff4ecda7852",
+      "columns_types_match": true,
+      "rows_indices_identifiers_targets_match": true,
+      "segment_comparison": [
+        {
+          "Segmento": "TEST",
+          "Registros": 12095,
+          "Clientes": 12095,
+          "Defaults": 1286,
+          "Tasa_default": 0.10632492765605622,
+          "Periodos": [
+            202408,
+            202409,
+            202410,
+            202411,
+            202412,
+            202501,
+            202502,
+            202503,
+            202504,
+            202505,
+            202506,
+            202507
+          ],
+          "Coincide_exactamente": true
+        },
+        {
+          "Segmento": "TRAIN",
+          "Registros": 28221,
+          "Clientes": 28221,
+          "Defaults": 3001,
+          "Tasa_default": 0.10633925091244109,
+          "Periodos": [
+            202408,
+            202409,
+            202410,
+            202411,
+            202412,
+            202501,
+            202502,
+            202503,
+            202504,
+            202505,
+            202506,
+            202507
+          ],
+          "Coincide_exactamente": true
+        },
+        {
+          "Segmento": "OOT",
+          "Registros": 10304,
+          "Clientes": 10304,
+          "Defaults": 1131,
+          "Tasa_default": 0.10976319875776397,
+          "Periodos": [
+            202508,
+            202509,
+            202510
+          ],
+          "Coincide_exactamente": true
+        }
+      ],
+      "source": "executed notebook 1.0; original input without SEGMENTO",
+      "segmentation": {
+        "oot_months": [
+          202510,
+          202509,
+          202508
+        ],
+        "development_max_period": 202507,
+        "test_size": 0.3,
+        "random_state": 123,
+        "stratify": "indicador_default",
+        "unit": "rows_of_development",
+        "source": "1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb"
+      }
+    },
+    "psi_variables": 29,
+    "bivariate_approved": 24,
+    "bivariate_rejected": 5,
+    "correlation_variables": 11,
+    "model_variables": 9,
+    "woe_cuts_match": true,
+    "coefficients_match": true,
+    "max_abs_metric_difference": 4.891920202254596e-16,
+    "metrics": [
+      {
+        "Segmento": "TRAIN",
+        "N": 28221,
+        "AUC": 0.750769159421086,
+        "Gini": 0.501538318842173,
+        "KS": 0.367142950763703,
+        "Recall": 0.007664111962679,
+        "Precision": 0.58974358974359,
+        "F1_score": 0.015131578947368,
+        "Brier": 0.085651746764932,
+        "Accuracy": 0.893908791325609,
+        "Tasa_default_observada": 0.106339250912441,
+        "Probabilidad_promedio": 0.106339250912441,
+        "TN": 25204,
+        "FP": 16,
+        "FN": 2978,
+        "TP": 23,
+        "Umbral": 0.5,
+        "Advertencias": null
+      },
+      {
+        "Segmento": "TEST",
+        "N": 12095,
+        "AUC": 0.756048686172041,
+        "Gini": 0.512097372344082,
+        "KS": 0.370999801875834,
+        "Recall": 0.009331259720062,
+        "Precision": 0.8,
+        "F1_score": 0.018447348193697,
+        "Brier": 0.085002321631966,
+        "Accuracy": 0.89441918147995,
+        "Tasa_default_observada": 0.106324927656056,
+        "Probabilidad_promedio": 0.106738854100585,
+        "TN": 10806,
+        "FP": 3,
+        "FN": 1274,
+        "TP": 12,
+        "Umbral": 0.5,
+        "Advertencias": null
+      },
+      {
+        "Segmento": "OOT",
+        "N": 10304,
+        "AUC": 0.767841519285976,
+        "Gini": 0.535683038571952,
+        "KS": 0.406154397497056,
+        "Recall": 0.007957559681698,
+        "Precision": 0.6,
+        "F1_score": 0.015706806282723,
+        "Brier": 0.086256362776824,
+        "Accuracy": 0.890527950310559,
+        "Tasa_default_observada": 0.109763198757764,
+        "Probabilidad_promedio": 0.105599162306329,
+        "TN": 9167,
+        "FP": 6,
+        "FN": 1122,
+        "TP": 9,
+        "Umbral": 0.5,
+        "Advertencias": null
+      }
+    ],
+    "metadata_note": "Dataset version changes because regenerated evidence uses new environment/paths; numeric source, bins and model are compared independently."
+  },
+  "exact_file_matches": {
+    "segmented_csv": true,
+    "coefficient_json": true,
+    "metrics_csv": true
+  },
+  "original_files_unchanged": 28,
+  "original_project_io_audit": {
+    "processes_reported": 9,
+    "denied_attempts": 0,
+    "original_accesses": 0,
+    "guard": "open/listdir/scandir/copy blocked during execution and Python subprocesses"
+  },
+  "mlflow": {
+    "tracking_uri": "http://127.0.0.1:5002",
+    "run_ids": [
+      "8c94e3fcbfdf407c9b9964598b456999",
+      "d15a2defa7b24148a06bd1bce32e0a06",
+      "5080b301ffe641d9bcc14839040350d2",
+      "372336cb3df4476290a703cf6890800b"
+    ],
+    "model": {
+      "model_uri": "models:/m-c9a8b27a78c94ad2b4473b700c5524da",
+      "registered_name": "CREDIT_RISK_LOGISTIC_WOE_FINAL",
+      "registered_version": "1",
+      "input_columns": [
+        "atraso_maximo_dias_24m",
+        "diferencia_meses_buen_mal_materialidad_gt0_12m",
+        "meses_desde_ultimo_atraso_ge1_dia_i_24m",
+        "meses_desde_ultimo_atraso_ge3_dias_i_24m",
+        "ratio_deuda_activa_total_sobre_deuda_total_24m",
+        "variacion_entidades_promedio_vs_actual_ventana_pendiente",
+        "entidades_acreedoras_maximas_12m",
+        "meses_buen_comportamiento_alineado_materialidad_gt1000_18m",
+        "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m"
+      ],
+      "synthetic_predictions": [
+        0.10584746316587494,
+        0.09580432813542292,
+        0.12264835756152768
+      ],
+      "signature_verified": true
+    }
+  },
+  "commits_created": 0,
+  "push_performed": false
+}

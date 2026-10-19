@@ -1,0 +1,621 @@
+{
+  "source_sha256": "77257d30bc7e475d2219724ef99faf4cb8f75aed5ebd6524962caff4ecda7852",
+  "psi_variables": [
+    "atraso_maximo_dias_24m",
+    "atraso_maximo_i_12m",
+    "atraso_maximo_i_18m",
+    "atraso_maximo_i_ultimos_6_meses_comportamiento_24m",
+    "diferencia_meses_buen_mal_alineado_materialidad_gt0_12m",
+    "diferencia_meses_buen_mal_materialidad_gt0_12m",
+    "diferencia_meses_buen_mal_materialidad_gt100_12m",
+    "diferencia_meses_buen_mal_materialidad_gt100_24m",
+    "diferencia_meses_buen_mal_materialidad_gt500_12m",
+    "entidades_acreedoras_maximas_12m",
+    "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m",
+    "incremento_deuda_total_sin_hipoteca_maxima_vs_actual_24m",
+    "incremento_entidades_maximas_vs_actuales_24m",
+    "meses_buen_comportamiento_alineado_materialidad_gt1000_18m",
+    "meses_buen_comportamiento_materialidad_gt0_12m",
+    "meses_buen_comportamiento_materialidad_gt100_12m",
+    "meses_calificacion_normal_12m",
+    "meses_calificacion_normal_24m",
+    "meses_calificacion_normal_cpp_materialidad_gt0_12m",
+    "meses_calificacion_normal_cpp_materialidad_gt1000_18m",
+    "meses_desde_ultimo_atraso_ge1_dia_i_24m",
+    "meses_desde_ultimo_atraso_ge3_dias_i_24m",
+    "meses_deuda_activa_sin_hipoteca_18m",
+    "meses_deuda_negocio_24m",
+    "ratio_deuda_activa_maxima_sobre_maxima_sin_hipoteca_24m",
+    "ratio_deuda_activa_total_sobre_deuda_total_24m",
+    "variacion_calificacion_maxima_vs_actual_24m",
+    "variacion_deuda_directa_promedio_vs_actual_12m",
+    "variacion_entidades_promedio_vs_actual_ventana_pendiente"
+  ],
+  "bivariate_approved": [
+    "diferencia_meses_buen_mal_materialidad_gt100_12m",
+    "diferencia_meses_buen_mal_materialidad_gt100_24m",
+    "diferencia_meses_buen_mal_materialidad_gt0_12m",
+    "diferencia_meses_buen_mal_materialidad_gt500_12m",
+    "diferencia_meses_buen_mal_alineado_materialidad_gt0_12m",
+    "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m",
+    "atraso_maximo_dias_24m",
+    "atraso_maximo_i_12m",
+    "atraso_maximo_i_18m",
+    "atraso_maximo_i_ultimos_6_meses_comportamiento_24m",
+    "entidades_acreedoras_maximas_12m",
+    "meses_desde_ultimo_atraso_ge1_dia_i_24m",
+    "meses_desde_ultimo_atraso_ge3_dias_i_24m",
+    "meses_buen_comportamiento_alineado_materialidad_gt1000_18m",
+    "meses_buen_comportamiento_materialidad_gt100_12m",
+    "meses_calificacion_normal_cpp_materialidad_gt0_12m",
+    "meses_buen_comportamiento_materialidad_gt0_12m",
+    "meses_calificacion_normal_12m",
+    "meses_calificacion_normal_24m",
+    "ratio_deuda_activa_maxima_sobre_maxima_sin_hipoteca_24m",
+    "ratio_deuda_activa_total_sobre_deuda_total_24m",
+    "variacion_calificacion_maxima_vs_actual_24m",
+    "variacion_deuda_directa_promedio_vs_actual_12m",
+    "variacion_entidades_promedio_vs_actual_ventana_pendiente"
+  ],
+  "bivariate_rejected": [
+    "incremento_deuda_total_sin_hipoteca_maxima_vs_actual_24m",
+    "incremento_entidades_maximas_vs_actuales_24m",
+    "meses_calificacion_normal_cpp_materialidad_gt1000_18m",
+    "meses_deuda_activa_sin_hipoteca_18m",
+    "meses_deuda_negocio_24m"
+  ],
+  "woe": {
+    "diferencia_meses_buen_mal_materialidad_gt100_12m": {
+      "edges": [
+        "-Infinity",
+        6.0,
+        10.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.9765179451754608,
+        "B001": -0.34846102477658725,
+        "B002": 0.4077940808772106
+      },
+      "iv_total": 0.2777588309789035,
+      "state": "APROBADA"
+    },
+    "diferencia_meses_buen_mal_materialidad_gt100_24m": {
+      "edges": [
+        "-Infinity",
+        16.0,
+        22.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.49289916147206375,
+        "B001": -0.06700407336207964,
+        "B002": 0.5615161572865598
+      },
+      "iv_total": 0.2007194500318443,
+      "state": "APROBADA"
+    },
+    "diferencia_meses_buen_mal_materialidad_gt0_12m": {
+      "edges": [
+        "-Infinity",
+        6.0,
+        10.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.9778660446569057,
+        "B001": -0.3600916777085712,
+        "B002": 0.4081401176779693
+      },
+      "iv_total": 0.27940049723879756,
+      "state": "APROBADA"
+    },
+    "diferencia_meses_buen_mal_materialidad_gt500_12m": {
+      "edges": [
+        "-Infinity",
+        6.0,
+        10.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.8202912316699165,
+        "B001": -0.17313131227342524,
+        "B002": 0.3913127702154461
+      },
+      "iv_total": 0.21523875728151526,
+      "state": "APROBADA"
+    },
+    "diferencia_meses_buen_mal_alineado_materialidad_gt0_12m": {
+      "edges": [
+        "-Infinity",
+        10.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.6583267115144975,
+        "B001": 0.3428472344855967
+      },
+      "iv_total": 0.22156058480409035,
+      "state": "APROBADA"
+    },
+    "incremento_deuda_total_sin_hipoteca_maxima_vs_actual_24m": {
+      "edges": [
+        "-Infinity",
+        0.048497895,
+        0.200191972,
+        0.6917808800000004,
+        2.034528793,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 0.04606395469120238,
+        "B001": -0.1622635777858472,
+        "B002": -0.05890479338197475,
+        "B003": 0.05556353249195397,
+        "B004": 0.38039688649381725
+      },
+      "iv_total": 0.02015516663111265,
+      "state": "RECHAZADA"
+    },
+    "incremento_entidades_maximas_vs_actuales_24m": {
+      "edges": [
+        "-Infinity",
+        0.333333333,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.0547349902629809,
+        "B001": 0.2497614518754629
+      },
+      "iv_total": 0.013655147747632835,
+      "state": "RECHAZADA"
+    },
+    "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m": {
+      "edges": [
+        "-Infinity",
+        13.87155375,
+        22.749147330000003,
+        39.94832121,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.24411192892049663,
+        "B001": 0.04984705225132381,
+        "B002": 0.269597195550304,
+        "B003": 0.5497417223669756
+      },
+      "iv_total": 0.06437571268836212,
+      "state": "APROBADA"
+    },
+    "atraso_maximo_dias_24m": {
+      "edges": [
+        "-Infinity",
+        4.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 0.4572087669349226,
+        "B001": -0.722415300621913
+      },
+      "iv_total": 0.32150381126821137,
+      "state": "APROBADA"
+    },
+    "atraso_maximo_i_12m": {
+      "edges": [
+        "-Infinity",
+        4.0,
+        16.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 1.0627950009015277,
+        "B001": -0.11837492459094001,
+        "B002": -1.8716621958846642,
+        "__MISSING__": 0.26979043226588106
+      },
+      "iv_total": 1.168508307646699,
+      "state": "APROBADA"
+    },
+    "atraso_maximo_i_18m": {
+      "edges": [
+        "-Infinity",
+        4.0,
+        19.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 1.0751278431176972,
+        "B001": -0.11869674294471419,
+        "B002": -1.9353419292765894,
+        "__MISSING__": -0.18219469147717607
+      },
+      "iv_total": 1.1198367548615398,
+      "state": "APROBADA"
+    },
+    "atraso_maximo_i_ultimos_6_meses_comportamiento_24m": {
+      "edges": [
+        "-Infinity",
+        4.0,
+        17.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 1.023234777345224,
+        "B001": -0.2777214580981854,
+        "B002": -2.0532476071984553,
+        "__MISSING__": -0.5186669280983892
+      },
+      "iv_total": 1.2494466096082835,
+      "state": "APROBADA"
+    },
+    "entidades_acreedoras_maximas_12m": {
+      "edges": [],
+      "category_groups": {
+        "NUMBER:1": "G000",
+        "NUMBER:2": "G001",
+        "NUMBER:3": "G001",
+        "NUMBER:4": "G002",
+        "NUMBER:5": "G002",
+        "NUMBER:6": "G002",
+        "NUMBER:7": "G002",
+        "NUMBER:8": "G002"
+      },
+      "woe_by_bin": {
+        "G000": 0.37306780439460346,
+        "G001": -0.10229532439163205,
+        "G002": -0.5585513403501
+      },
+      "iv_total": 0.09410618765315909,
+      "state": "APROBADA"
+    },
+    "meses_desde_ultimo_atraso_ge1_dia_i_24m": {
+      "edges": [
+        "-Infinity",
+        1.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.26551024521896155,
+        "B001": 1.0273006645717713,
+        "__MISSING__": -0.5188136179678767
+      },
+      "iv_total": 0.26682889134992654,
+      "state": "APROBADA"
+    },
+    "meses_desde_ultimo_atraso_ge3_dias_i_24m": {
+      "edges": [
+        "-Infinity",
+        1.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.23563883432913738,
+        "B001": 0.7683006797978015,
+        "__MISSING__": -0.5188136179678767
+      },
+      "iv_total": 0.17841765056365227,
+      "state": "APROBADA"
+    },
+    "meses_calificacion_normal_cpp_materialidad_gt1000_18m": {
+      "edges": [
+        "-Infinity",
+        7.0,
+        17.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.2075204711750333,
+        "B001": -0.05297064476462702,
+        "B002": 0.1530195897066543
+      },
+      "iv_total": 0.01849219951541342,
+      "state": "RECHAZADA"
+    },
+    "meses_buen_comportamiento_alineado_materialidad_gt1000_18m": {
+      "edges": [
+        "-Infinity",
+        17.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.18442181923459414,
+        "B001": 0.35149097683852065
+      },
+      "iv_total": 0.06447485657949248,
+      "state": "APROBADA"
+    },
+    "meses_buen_comportamiento_materialidad_gt100_12m": {
+      "edges": [
+        "-Infinity",
+        11.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.5024751421148423,
+        "B001": 0.4033745235922559
+      },
+      "iv_total": 0.19933074241358834,
+      "state": "APROBADA"
+    },
+    "meses_calificacion_normal_cpp_materialidad_gt0_12m": {
+      "edges": [
+        "-Infinity",
+        11.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.3726968060366861,
+        "B001": 0.15611133024251822
+      },
+      "iv_total": 0.05790194583743395,
+      "state": "APROBADA"
+    },
+    "meses_buen_comportamiento_materialidad_gt0_12m": {
+      "edges": [
+        "-Infinity",
+        11.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.5161922506066298,
+        "B001": 0.40441141227931127
+      },
+      "iv_total": 0.205197477356274,
+      "state": "APROBADA"
+    },
+    "meses_deuda_activa_sin_hipoteca_18m": {
+      "edges": [
+        "-Infinity",
+        10.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.273316822406667,
+        "B001": 0.044025414769830865
+      },
+      "iv_total": 0.012020845637248102,
+      "state": "RECHAZADA"
+    },
+    "meses_deuda_negocio_24m": {
+      "edges": [
+        "-Infinity",
+        16.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.11607655848913469,
+        "B001": 0.08954858763388139
+      },
+      "iv_total": 0.010385497536155835,
+      "state": "RECHAZADA"
+    },
+    "meses_calificacion_normal_12m": {
+      "edges": [
+        "-Infinity",
+        11.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.5163124429144667,
+        "B001": 0.40447058037589084
+      },
+      "iv_total": 0.20527396438590148,
+      "state": "APROBADA"
+    },
+    "meses_calificacion_normal_24m": {
+      "edges": [
+        "-Infinity",
+        23.0,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.27046119930124407,
+        "B001": 0.5559409402987034
+      },
+      "iv_total": 0.14850679996855315,
+      "state": "APROBADA"
+    },
+    "ratio_deuda_activa_maxima_sobre_maxima_sin_hipoteca_24m": {
+      "edges": [
+        "-Infinity",
+        1.025303879,
+        1.411410368,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 0.8830197621727579,
+        "B001": 0.0984513813633588,
+        "B002": -0.14337185410787479
+      },
+      "iv_total": 0.07110671565972956,
+      "state": "APROBADA"
+    },
+    "ratio_deuda_activa_total_sobre_deuda_total_24m": {
+      "edges": [
+        "-Infinity",
+        0.570277165,
+        0.8165622920000001,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": 1.0633498765465645,
+        "B001": 0.3609810093331458,
+        "B002": -0.17729876937469052
+      },
+      "iv_total": 0.12106413321478113,
+      "state": "APROBADA"
+    },
+    "variacion_calificacion_maxima_vs_actual_24m": {
+      "edges": [],
+      "category_groups": {
+        "NUMBER:0": "G000",
+        "NUMBER:0.25": "G001",
+        "NUMBER:0.5": "G001",
+        "NUMBER:0.75": "G001",
+        "NUMBER:1": "G001"
+      },
+      "woe_by_bin": {
+        "G000": 0.09553129710955825,
+        "G001": -0.3958330572024351,
+        "__MISSING__": -1.6174259066359864
+      },
+      "iv_total": 0.0382124607707423,
+      "state": "APROBADA"
+    },
+    "variacion_deuda_directa_promedio_vs_actual_12m": {
+      "edges": [
+        "-Infinity",
+        0.000102397,
+        0.81471751,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.11421155646761917,
+        "B001": 0.062493860669181736,
+        "B002": 0.4162773784064255
+      },
+      "iv_total": 0.02305572876492045,
+      "state": "APROBADA"
+    },
+    "variacion_entidades_promedio_vs_actual_ventana_pendiente": {
+      "edges": [
+        "-Infinity",
+        -0.041666667,
+        "+Infinity"
+      ],
+      "category_groups": {},
+      "woe_by_bin": {
+        "B000": -0.33946414691698673,
+        "B001": 0.29226828378149744
+      },
+      "iv_total": 0.09840239619856526,
+      "state": "APROBADA"
+    }
+  },
+  "correlation_variables": [
+    "atraso_maximo_i_ultimos_6_meses_comportamiento_24m",
+    "atraso_maximo_dias_24m",
+    "diferencia_meses_buen_mal_materialidad_gt0_12m",
+    "meses_desde_ultimo_atraso_ge1_dia_i_24m",
+    "meses_desde_ultimo_atraso_ge3_dias_i_24m",
+    "meses_calificacion_normal_24m",
+    "ratio_deuda_activa_total_sobre_deuda_total_24m",
+    "variacion_entidades_promedio_vs_actual_ventana_pendiente",
+    "entidades_acreedoras_maximas_12m",
+    "meses_buen_comportamiento_alineado_materialidad_gt1000_18m",
+    "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m"
+  ],
+  "final_model": {
+    "intercept": -2.133877352494374,
+    "coefficients": {
+      "atraso_maximo_dias_24m": -0.72143770873289,
+      "diferencia_meses_buen_mal_materialidad_gt0_12m": -0.44028247098900364,
+      "meses_desde_ultimo_atraso_ge1_dia_i_24m": -0.6601238554859634,
+      "meses_desde_ultimo_atraso_ge3_dias_i_24m": -0.5708867283564525,
+      "ratio_deuda_activa_total_sobre_deuda_total_24m": -0.9039185692616556,
+      "variacion_entidades_promedio_vs_actual_ventana_pendiente": -0.4864313551681819,
+      "entidades_acreedoras_maximas_12m": -0.5583667494059875,
+      "meses_buen_comportamiento_alineado_materialidad_gt1000_18m": -0.4678223152875194,
+      "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m": -0.9944963675067534
+    },
+    "variables": [
+      "atraso_maximo_dias_24m",
+      "diferencia_meses_buen_mal_materialidad_gt0_12m",
+      "meses_desde_ultimo_atraso_ge1_dia_i_24m",
+      "meses_desde_ultimo_atraso_ge3_dias_i_24m",
+      "ratio_deuda_activa_total_sobre_deuda_total_24m",
+      "variacion_entidades_promedio_vs_actual_ventana_pendiente",
+      "entidades_acreedoras_maximas_12m",
+      "meses_buen_comportamiento_alineado_materialidad_gt1000_18m",
+      "incremento_deuda_activa_sin_hipoteca_total_vs_actual_24m"
+    ]
+  },
+  "metrics": [
+    {
+      "Segmento": "TRAIN",
+      "N": 28221,
+      "AUC": 0.750769159421086,
+      "Gini": 0.501538318842173,
+      "KS": 0.367142950763703,
+      "Recall": 0.007664111962679,
+      "Precision": 0.58974358974359,
+      "F1_score": 0.015131578947368,
+      "Brier": 0.085651746764932,
+      "Accuracy": 0.893908791325609,
+      "Tasa_default_observada": 0.106339250912441,
+      "Probabilidad_promedio": 0.106339250912441,
+      "TN": 25204,
+      "FP": 16,
+      "FN": 2978,
+      "TP": 23,
+      "Umbral": 0.5,
+      "Advertencias": null
+    },
+    {
+      "Segmento": "TEST",
+      "N": 12095,
+      "AUC": 0.756048686172041,
+      "Gini": 0.512097372344082,
+      "KS": 0.370999801875834,
+      "Recall": 0.009331259720062,
+      "Precision": 0.8,
+      "F1_score": 0.018447348193697,
+      "Brier": 0.085002321631966,
+      "Accuracy": 0.89441918147995,
+      "Tasa_default_observada": 0.106324927656056,
+      "Probabilidad_promedio": 0.106738854100585,
+      "TN": 10806,
+      "FP": 3,
+      "FN": 1274,
+      "TP": 12,
+      "Umbral": 0.5,
+      "Advertencias": null
+    },
+    {
+      "Segmento": "OOT",
+      "N": 10304,
+      "AUC": 0.767841519285976,
+      "Gini": 0.535683038571952,
+      "KS": 0.406154397497056,
+      "Recall": 0.007957559681698,
+      "Precision": 0.6,
+      "F1_score": 0.015706806282723,
+      "Brier": 0.086256362776824,
+      "Accuracy": 0.890527950310559,
+      "Tasa_default_observada": 0.109763198757764,
+      "Probabilidad_promedio": 0.105599162306329,
+      "TN": 9167,
+      "FP": 6,
+      "FN": 1122,
+      "TP": 9,
+      "Umbral": 0.5,
+      "Advertencias": null
+    }
+  ]
+}

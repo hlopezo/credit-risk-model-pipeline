@@ -1,0 +1,327 @@
+{
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 74,
+      "sha256": "baf3f8b5266e8f46119b977eb526a1f55ad576c6791ea70b7f80ee88f637687b",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 76,
+      "sha256": "04a8f2d6d634a7973091fca82170b46c693dff96965570b3a58e6ec6b019d5a9",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 159,
+      "sha256": "d0f1c97e838df874652f5ccdf0b44aae8040ad6652a30ca7da45e1241549efe9",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "02369ac6ffad39d546def053d7b25a2c1d5a75a3d450a6b68378834a43dbe1bc",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12247,
+      "sha256": "23185855af190f33cf9869b5b61eb9c998193d990db27acf4994bd82ac00b0cc",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "configs/data_schema.json",
+      "bytes": 5882,
+      "sha256": "bc15a5dbefd8eba6a4bbb3852db75dfdfc49895cd347fdef115914d114338a49",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "configs/partition_reference.json",
+      "bytes": 7647,
+      "sha256": "8d288c7572340d64d33f0727fc5ec3f08e94f59c493824b89710f45835d7942c",
+      "role": "referencia de auditoría"
+    },
+    {
+      "path": "configs/pipeline.json",
+      "bytes": 2828,
+      "sha256": "b1747c3123c0366d9a4b06c66bc16045a85cbbdc81e2d1bb40e1661c09df752a",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "data/raw/base_credit_risk_202510.csv",
+      "bytes": 10665120,
+      "sha256": "d8278614e2e822d871b098143317351f7ad5a8948e2970a87c348ea01eaba514",
+      "role": "fuente original sin segmentar"
+    },
+    {
+      "path": "docs/ADAPTACIONES.md",
+      "bytes": 944,
+      "sha256": "5bb38afe244cdcf067ba03a1ee1447336d7b48e5207cdbb97539e9bbdcfd1fd7",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "docs/OMISION_FASE_1.md",
+      "bytes": 1694,
+      "sha256": "2070996e37aad6ef82df6518536a212b3be8f7f6db3c9fcc5ba706212144c134",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "docs/REPRODUCCION.md",
+      "bytes": 4708,
+      "sha256": "ca37faf572aef35fc00b68671f8fc1d5206a45a473a1afc31078bd310c1c26b8",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "docs/reference/b2/binning_woe_train.json",
+      "bytes": 221663,
+      "sha256": "36a59a73e2cbff0b55b0884de7768eccbd33eff3629f25c438e2619d8d919d9c",
+      "role": "referencia de auditoría"
+    },
+    {
+      "path": "docs/reference/b2/reportes/df_cortes_seleccionados.csv",
+      "bytes": 23872,
+      "sha256": "1ecdfea297b3c2e7a90c5177d5d6e5687df5a333b2c591bd7f9908e9fec14adf",
+      "role": "referencia de auditoría"
+    },
+    {
+      "path": "docs/reference/b2/reportes/df_resumen_bivariado.csv",
+      "bytes": 25348,
+      "sha256": "ec2c684194a44eb9c8a3cf2ec33817468b7482504db0f6e97058ddda78cb01b3",
+      "role": "referencia de auditoría"
+    },
+    {
+      "path": "docs/reference/expected_results.json",
+      "bytes": 18566,
+      "sha256": "3422eb11ad056961650ad9a8a7f42cfabbda5f41d8013d15ed93b5643c430a5c",
+      "role": "referencia de auditoría"
+    },
+    {
+      "path": "docs/reproduction_verified.json",
+      "bytes": 8917,
+      "sha256": "4b41fba7975634ddaf02f8948da5480e8a8e76c7b642416bede5e983228f5e0d",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "notebooks/1.0.0.SCR_DES_MOD_RL_SEGMT.ipynb",
+      "bytes": 11739,
+      "sha256": "c8ff04cd0ee40a64b36fbb08ae58d84891dd059521717bb53155d9ba36f0d868",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "notebooks/2.0.0.SCR_DES_ANLS_UNV_BIV_MULT.ipynb",
+      "bytes": 35657,
+      "sha256": "82b740b27bb45a32c72746c328bebc38bb89ebab0731e476f554059af4de8602",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "notebooks/3.0.0.SCR_DES_ANLS_BIVARIADO.ipynb",
+      "bytes": 36234,
+      "sha256": "f99720131c391f957648dd89b949e107a3a12f43a1e531fa20ebcabdae2c8f7c",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "notebooks/4.0.0.SCR_DES_ANLS_Multivar.ipynb",
+      "bytes": 18847,
+      "sha256": "209126f3471f83f94dcd47637134034e12f3796f94ab06eaa4d1f35bf7fcbec7",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "notebooks/5.0.0.SCR_DES_MODELO_LOGISTICO.ipynb",
+      "bytes": 25710,
+      "sha256": "d40a8dea636af30b059e3cbe3b3919365b939b8ec8b552d018560c19c2c462c7",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "notebooks/5.1.0.SCR_DES_EVALUACION_UMBRALES.ipynb",
+      "bytes": 19397,
+      "sha256": "eb7cac919d413e21d5e0f805f76d1b8a504cc527132181f9ef4719466079d34d",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "outputs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 3318,
+      "sha256": "9a3ba0d092b0174b838dc1e603c95e648903ac3c3ed3e366ead3c29da531d40e",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 297,
+      "sha256": "9b44d0af86867caf034831006dc17d93814721db816f6c45ad549a5af847a889",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/3.0.1.ejecutar_bivariado.py",
+      "bytes": 362,
+      "sha256": "31fa75e44e7d5642247cb3e4fbf7c00679dd51b2ebd041830439a4cb015ba8b4",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/4.0.1.ejecutar_multivariado.py",
+      "bytes": 8390,
+      "sha256": "4d17ac068b2a37704a25fefaf7676d2962d1cf3fba63571db2bd39c4ed797e5e",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/5.0.1.ejecutar_modelo_logistico.py",
+      "bytes": 12941,
+      "sha256": "55aa3b079efbd3f9bc4212ca89fff18d57a67828dd37ed6c0b25ae2f85856beb",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/5.1.1.ejecutar_evaluacion_umbrales.py",
+      "bytes": 11706,
+      "sha256": "f42998cad820c71bc7591ea2642d2ff9e4d7f615979bfc784302336b0895eb16",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/ejecutar_psi_notebook.py",
+      "bytes": 9916,
+      "sha256": "8cc8911321f40abda8d0c42e00338b7726ec626976b3f0f083cce0b7f435d14c",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/ejecutar_segmentacion.py",
+      "bytes": 3360,
+      "sha256": "b7dba5c3bedee3ba3dc12d9f62b74b71f3dea54d1872125aa4033f753b19a9c1",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/registrar_pipeline_mlflow.py",
+      "bytes": 14985,
+      "sha256": "5e0658170847a970f5da5692ce0885a1128c68f35954b924f36da9f302bf433b",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 9069,
+      "sha256": "56ae8c4e4239ef7fcfe8496bdf2c208a2d76b6bb84b3acb24488cfdf78a5402f",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/3.0.0.bivariado.py",
+      "bytes": 97112,
+      "sha256": "1f33643debe1a269319c962ec17e3bb1531410b3dfd40c977b4f18e87d35624a",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/4.0.0.multivariado.py",
+      "bytes": 13819,
+      "sha256": "1c2770160bc57f6b5e9f8e734218ad845d90a28e7709e8e4aaa85d6d4d8e038e",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/5.0.0.modelo_logistico.py",
+      "bytes": 29279,
+      "sha256": "744bd1ebe298f2c3d802e9bf3751da98062e86bc35a8376c29e41805da1156ad",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/5.1.0.evaluacion_umbrales.py",
+      "bytes": 18049,
+      "sha256": "05bdf31ffe0279c1e0eb3662a6f7d4bf669a168f200e5da4307cfb3bae0b4498",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/informe_psi.py",
+      "bytes": 10834,
+      "sha256": "8ccf56f93eba30c952be95f5d39fe6a29171c33de62421a4aa64dbdbf6ebaf11",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/mlflow_tracking.py",
+      "bytes": 13667,
+      "sha256": "d5e290c74965d2d0486087c7584779fc4f9d3e3c51f63190292d501b55c6ea9c",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/pipeline_io_guard.py",
+      "bytes": 1134,
+      "sha256": "8529d80512fbab452ab1435e050c890ffcefc99507d48a88d68885f623260b24",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/pipeline_runtime.py",
+      "bytes": 3988,
+      "sha256": "37cf98893e52491226a1febb835db1d3afca885abccf821562472934bc192733",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/psi_temporal.py",
+      "bytes": 24886,
+      "sha256": "452b878c17dcfce334d4c08266c1d74187d9a29adedaca376e7fec7e0bda2647",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/segmentation_validation.py",
+      "bytes": 3858,
+      "sha256": "bd44de1932266d9b7217435f435157978a5a160b808b6c623f0eb2988bb9c7dc",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "src/sitecustomize.py",
+      "bytes": 105,
+      "sha256": "00b4d369a550c18159d214a29e29994fff72a2415fe1c67549e9800d9c8cd916",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_bivariado.py",
+      "bytes": 45429,
+      "sha256": "6fd219a55531e8af23803ddb81c2795fc79546069dbfbef83a18d9af0d7ad5d3",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_evaluacion_umbrales.py",
+      "bytes": 9552,
+      "sha256": "527dc0b1581a9bfda98e661c6c3e8c855d631043fbdd61090afc5cb27a20cca2",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_mlflow_tracking.py",
+      "bytes": 8243,
+      "sha256": "2a86d29126fbbc65ee705a9c3690fc3029b818ea793d0e7e6c1782a247d0d519",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_modelo_logistico.py",
+      "bytes": 12563,
+      "sha256": "70d5802ace787241082ee910638095010ed59d45f692fbc26004cd138fcf7f4a",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_multivariado.py",
+      "bytes": 8021,
+      "sha256": "dcee3a7dd5a9e54e78ec892e93cc571feec06299ab0ec1856f06ca070c89596e",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_packaging.py",
+      "bytes": 2537,
+      "sha256": "916a9320a39b376f9fecdcaf9e703bc24c960833b17dee223272f4b72e26080f",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_psi_temporal.py",
+      "bytes": 14388,
+      "sha256": "c9c592cfb7750fd43be8d096140a5b36db3037c9d55f5e90cad50305239b0d9f",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    },
+    {
+      "path": "tests/test_segmentacion.py",
+      "bytes": 5163,
+      "sha256": "d4da9b6f9a483b98969676af3ce21969d449c7fbe23261ae9f8a516182a2e0fc",
+      "role": "código/notebook/pruebas/configuración/documentación"
+    }
+  ],
+  "inventory_self_excluded_from_hash": true,
+  "versionable_files": 54,
+  "raw_is_unsegmented": true,
+  "segmented_file_generated_only": true,
+  "outputs_excluded": true
+}
